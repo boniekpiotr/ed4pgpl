@@ -103,5 +103,5 @@
   },
   "protected": false,
   "url": "https://foundryvtt.com/packages/ed4pgpl/",
-  "manifest": "https://foundryvtt.s3-us-west-2.amazonaws.com/modules/ed4pgpl/module.json"
+  "manifest": "https://github.com/boniekpiotr/ed4pgpl/tree/main/module.json"
 }
