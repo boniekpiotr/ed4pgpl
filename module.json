@@ -1,0 +1,107 @@
+{
+  "id": "ed4pgpl",
+  "title": "Earthdawn 4 Edycja - Podręcznik gracza",
+  "description": "Moduł zawierający informacje dotyczące świata gry",
+  "version": "11.0.0",
+  "authors": [
+    {
+      "name": "Patrick Mohrmann",
+      "discord": "patrickmohrmann#2953"
+    },
+    {
+      "name": "Tom LaPorta"
+    },
+    {
+      "name": "Piotr Bąk"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "earthdawn4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "label": "Wyposażenie",
+      "name": "goods",
+      "type": "Item",
+      "system": "earthdawn4e",
+      "path": "packs/goods",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    },
+    {
+      "label": "Czary",
+      "name": "spells",
+      "type": "Item",
+      "system": "earthdawn4e",
+      "path": "packs/spells",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    },
+    {
+      "label": "Dyscypliny",
+      "name": "disciplines",
+      "type": "Item",
+      "system": "earthdawn4e",
+      "path": "packs/disciplines",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    },
+    {
+      "label": "Dawcy imion",
+      "name": "namegiver",
+      "type": "Item",
+      "system": "earthdawn4e",
+      "path": "packs/namegiver",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    },
+    {
+      "label": "Opisy umiejętności",
+      "name": "skill-description",
+      "type": "Item",
+      "system": "earthdawn4e",
+      "path": "packs/skill-description",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    },
+    {
+      "label": "Opisy talentów",
+      "name": "talent-description",
+      "type": "Item",
+      "system": "earthdawn4e",
+      "path": "packs/talent-description",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    },
+    {
+      "label": "Podręcznik gracza",
+      "name": "playersguide",
+      "type": "JournalEntry",
+      "system": "earthdawn4e",
+      "path": "packs/playersguide",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    },
+    {
+      "label": "Przykładowy bohater",
+      "name": "example-character",
+      "type": "Actor",
+      "system": "earthdawn4e",
+      "path": "packs/example-character",
+      "banner": "modules/ed4pgpl/assets/pictures/compendium-banner/journal.jpg"
+    }
+  ],
+  "media": [
+		{
+			"type": "setup",
+			"url": "modules/ed4pgpl/assets/pictures/compendium-banner/setup.jpg"
+		}
+	],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "12"
+  },
+  "protected": false,
+  "url": "https://foundryvtt.com/packages/ed4pgpl/",
+  "manifest": "https://foundryvtt.s3-us-west-2.amazonaws.com/modules/ed4pgpl/module.json"
+}
